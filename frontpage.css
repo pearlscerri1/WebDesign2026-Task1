@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.frontpage{
+  background-color: rgb(0, 0, 0);
+}
+
+.front-logo{
+  fill: #d9ff00;
+  margin-top: 100px;
+}
+
+.icon-button{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
