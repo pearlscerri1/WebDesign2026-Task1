@@ -1,9 +1,9 @@
 body{
     background-color: #3A3B46;
 }
-/* TOP BAR */
+
 .topbar {
-  background-color: #d9ff00; /* neon yellow */
+  background-color: #d9ff00; 
   padding: 10px 0;
   position: relative;
 }
@@ -47,5 +47,13 @@ body{
   color: white;
   padding: 15px 0;
   font-size: 15px;
+  
+  text-decoration: none;
+  transition: 0.3s;
+  
+
 }
 
+.subnav:hover{
+  color: #d9ff00;
+}
