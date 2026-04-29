@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+
+/* Artists */
+h1, h2{
+  margin: 0;
+}
+
+.container-wrapper{
+  background-color: #3a3b46;
+}
+
+.container {
+  max-width: 922px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  text-align: center;
+  padding-block: 212px 130px;
+}
+
+
+.container > h1, h2{
+  color: #d9ff00;
+}
+
+.container > h1{
+  font-size: 64px; 
+}
+
+.container > h2{
+  font-size: 40px;
+  margin-block: 60px 120px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 98px 92px;
+  justify-items: center;
+}
+
+.artist {
+  cursor: pointer;
+  max-width: 235px;
+  width: 100%;
+}
+
+.artist.artist-active img {
+  filter:brightness(50%);
+}
+
+.artist.artist-active p {
+  color: #d9ff00;
+}
+
+.artist img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.artist p {
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.proceed {
+  margin-top: 130px;
+  background-color: #d9ff00;
+  color: black;
+  border: none;
+  padding: 12px ;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.proceed:hover {
+color: #d9ff00;
+  background-color: #000000;
+}
+/* Artists */
+
+/* NAV BAR */
+.topbar {
+  background-color: #d9ff00; 
+  padding: 10px 0;
+  position: relative;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo-icon{
+  padding-top: 60px;
+  width: 200px;
+  height: 200px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  margin-right: 15px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.subnav {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  font-size: 15px;
+  cursor: pointer; /* Because i want to make them clickable later on */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.subnav:hover{
+  color: #d9ff00;
+}
+/* NAV BAR */
+
+/* FOOTER */
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.footer-pages{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding: 20px ;
+  
+  font-size: 16px;
+  border-bottom: 1px solid ;
+}
+
+.footer-pages a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialsTitle{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.socials p{
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.socialsIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  
+}
+
+.socialsIcons img{
+  
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+.footer-bottom {
+  background-color: #d9ff00; 
+  color: #000;
+  padding: 15px 0;
+  font-size: 14px;
+}
+/* FOOTER end */
