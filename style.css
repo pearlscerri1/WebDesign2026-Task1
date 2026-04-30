@@ -206,3 +206,48 @@ body{
   margin-bottom: 80px;
 }
 /* Middle Row*/
+
+
+
+.mood p {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+   font-size: 16px;
+}
+
+.mood-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  padding-bottom: 150px;
+}
+
+.mood-text {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  text-align: center;
+ 
+}
+
+.mood-text h2{
+  font-size: 30px; 
+    color: #d9ff00;
+    margin-block: 60px 120px;
+}
+
+
+.mood {
+  cursor: pointer;
+  max-width: 200px;
+  width: 500%;
+}
+
+.mood img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 80px;
+}

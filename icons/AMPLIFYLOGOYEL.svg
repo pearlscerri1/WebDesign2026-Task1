@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5442.52 3061.42">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5442.5 1365.9">
   <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
   <defs>
     <style>
-      .st0 {
+      .st0, .st1 {
+        isolation: isolate;
+      }
+
+      .st1 {
         fill: #daff08;
         font-family: Comba-BoldUltraWide, Comba;
-        font-size: 677.11px;
+        font-size: 677.1px;
         font-weight: 700;
       }
     </style>
   </defs>
-  <text class="st0" transform="translate(717.04 1026.07)"><tspan x="0" y="0">AMPLIFY</tspan></text>
+  <g class="st0">
+    <text class="st1" transform="translate(717 1026.1)"><tspan x="0" y="0">AMPLIFY</tspan></text>
+  </g>
 </svg>
