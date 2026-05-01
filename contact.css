@@ -1,0 +1,185 @@
+body{
+    background-color: #3A3B46;
+}
+
+/* NAV BAR */
+.topbar {
+    background-color: #d9ff00; 
+    padding: 10px 0;
+    position: relative;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.logo-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo-icon{
+    padding-top: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+.search-bar {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin-right: 15px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.subnav {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    font-size: 15px;
+    cursor: pointer; /* Because i want to make them clickable later on */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.subnav:hover{
+    color: #d9ff00;
+}
+/* NAV BAR */
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form {
+  background: black;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; 
+  width: 1000px;
+  
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 55%;
+}
+
+label {
+  color: #d4ff00;
+  font-size: 14px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.submit-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background: #d4ff00;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.footer-pages{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 20px ;
+    
+    font-size: 16px;
+    border-bottom: 1px solid ;
+}
+
+.footer-pages a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.socialsTitle{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.socials p{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.socialsIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.socialsIcons img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+.footer-bottom {
+    background-color: #ccff00; 
+    color: #000;
+    padding: 15px 0;
+    font-size: 14px;
+}
+/* FOOTER end */
