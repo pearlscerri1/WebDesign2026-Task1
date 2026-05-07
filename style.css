@@ -156,7 +156,7 @@ body{
   padding: 1em;
   background-color: #3A3B46;
   font-size: 3rem;
-  
+  border: none;
   text-align: center;
   align-content: center;
 }
@@ -208,6 +208,7 @@ body{
 /* Middle Row*/
 
 
+/* bottom Row*/
 
 .mood p {
   margin: 0 auto;
@@ -222,6 +223,7 @@ body{
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding-bottom: 150px;
+  
   
   
 }
@@ -254,3 +256,4 @@ body{
   display: block;
   margin-bottom: 80px;
 }
+/* bottom Row*/
