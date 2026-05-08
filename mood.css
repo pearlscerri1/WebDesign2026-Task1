@@ -57,62 +57,68 @@ body{
   text-decoration: none;
   color: white;
 }
-
 /* NAV BAR */
 
 
-/* profile */
-.profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    gap: 150px;
-    margin-bottom: 100px;
-    
+
+
+
+.mood p {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
 }
 
-.profile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.profile img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.mood-icons {
+ 
+
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 200px;
+
+
+  
 }
 
-.profile h2{
+.mood-text {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  text-align: center;
+ 
+}
+
+.mood-text h2{
+  font-size: 30px; 
     color: #d9ff00;
-    font-size: 40px;
-    
-}
-
-.profile-list{
-    background-color: #000000;
-    border-radius: 20px;
-    padding: 30px;
-    margin-bottom: 30px;
-    width: 50%;
-    color: #fff;
-    font-size: 20px;
-    list-style: none;
-    
-}
-
-.profile-list li{
-    margin: 12px 0;
-    cursor: pointer;
-    margin-left: 20px;
-}
-
-.profile-list li:hover{  
-  background: rgba(255, 253, 253, 0.05);
+    margin-block: 60px 120px;
 }
 
 
-/* profile */
+.mood {
+  cursor: pointer;
+  
+  width: 100%;
+
+   max-width: 120px;
+  
+}
+
+.mood img {
+ 
+
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+/* bottom Row*/
+
+
+
 
 /* FOOTER */
 .footer {

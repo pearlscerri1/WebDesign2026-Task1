@@ -142,8 +142,9 @@ color: #d9ff00;
   transition: 0.3s;
 }
 
-.subnav:hover{
-  color: #d9ff00;
+.subnav a{
+  text-decoration: none;
+  color: white;
 }
 /* NAV BAR */
 

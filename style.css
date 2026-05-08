@@ -43,6 +43,11 @@ body{
   border-radius: 50%;
 }
 
+.subnav a{
+  text-decoration: none;
+  color: white;
+}
+
 .subnav {
   background-color: black;
   color: white;
@@ -53,9 +58,6 @@ body{
   transition: 0.3s;
 }
 
-.subnav:hover{
-  color: #d9ff00;
-}
 /* NAV BAR */
 
 /* FOOTER */
@@ -185,6 +187,11 @@ body{
 
 .cardMid {
   text-align: center;
+ 
+}
+
+.cardMid a{
+  text-decoration: none;
 }
 
 .cardMid img {
@@ -218,13 +225,16 @@ body{
 }
 
 .mood-icons {
-  justify-items: center;
+ 
+
+
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding-bottom: 150px;
-  
-  
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 200px;
+
+
   
 }
 
@@ -245,15 +255,18 @@ body{
 
 .mood {
   cursor: pointer;
-  max-width: 200px;
+  
   width: 100%;
+
+   max-width: 120px;
   
 }
 
 .mood img {
+ 
+
   width: 100%;
-  height: auto;
   display: block;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 /* bottom Row*/

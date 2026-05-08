@@ -5,3 +5,4 @@ artists.forEach(artist => {
     artist.classList.toggle('artist-active')
   });
 });
+

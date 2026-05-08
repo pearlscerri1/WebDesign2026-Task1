@@ -53,8 +53,9 @@ body{
     transition: 0.3s;
 }
 
-.subnav:hover{
-    color: #d9ff00;
+.subnav a{
+  text-decoration: none;
+  color: white;
 }
 /* NAV BAR */
 
@@ -103,7 +104,7 @@ input, textarea {
 }
 
 textarea {
-  height: 120px;
+  height: 140px;
   resize: none;
 }
 
@@ -114,17 +115,41 @@ textarea {
   margin-top: 20px;
 }
 
-button {
+.submit-btn a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.submit-link {
   background: #d4ff00;
   border: none;
   padding: 12px 25px;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+  transition: background 0.2s ease;
 }
 
+.submit-link:hover{
+    color: #d9ff00;
+  background-color: #000000;
+}
 
+.amp-mail h6{
 
+color: #ffffff;
+}
+
+.amp-mail a{
+    text-decoration: none;
+
+}
+
+.amp-mail {
+  width: 100%;
+  text-align: center;
+}
 
 
 /* FOOTER */

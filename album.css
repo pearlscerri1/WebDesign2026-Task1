@@ -53,8 +53,9 @@ body{
   transition: 0.3s;
 }
 
-.subnav:hover{
-  color: #d9ff00;
+.subnav a{
+  text-decoration: none;
+  color: white;
 }
 /* NAV BAR */
 
@@ -114,3 +115,120 @@ body{
   font-size: 14px;
 }
 /* FOOTER end */
+
+
+.player {
+  width: 720px;
+  background: #3A3B46;
+   width: 100%;
+  min-height: 100vh;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.top-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 35px;
+  min-height: 300px;
+}
+
+.album img {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+
+.info h1 {
+  font-size: 82px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.arrow {
+  font-size: 28px;
+  cursor: pointer;
+  color: #000;
+}
+
+.play-btn {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid #d9ff00;
+  margin-left: 3px;
+}
+
+.divider {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 35px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.song-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.song-icon {
+  width: 22px;
+  height: 22px;
+  background: white;
+}
+
+.song-name {
+  font-size: 16px;
+  color: rgba(255,255,255,0.95);
+}
+
+.mini-play {
+  width: 14px;
+  height: 14px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mini-triangle {
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 5px solid #d9ff00;
+  margin-left: 1px;
+}
+
+.song:hover {
+  background: rgba(255,255,255,0.05);
+}
+
